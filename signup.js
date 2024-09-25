@@ -15,13 +15,11 @@ function Signup(){
       alert("mobile number should have 10 digits");
    }
    else{
-
        let userData = {
         username:username,
         mobile:mobile,
         password:password
        }
-    
       let users = [...getUsersdata,userData];
       localStorage.setItem("usersdata", JSON.stringify(users));
  
@@ -29,6 +27,4 @@ function Signup(){
       alert("Signup Successfull");
       window.location.href = "signin.html"
    }
-
-
 }
