@@ -88,11 +88,8 @@ let sample_data = [
         names:"Men Slim Fit Self",
         price:"5578",
         actualprice:"10,399"
-    },
-    
-
+    },  
 ];
-
 
 localStorage.setItem("productsdata", JSON.stringify(sample_data));
 

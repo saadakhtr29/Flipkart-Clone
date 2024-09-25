@@ -36,7 +36,6 @@ function Signin(){
         else{
             count++;
         }
-
     }
      }
     if(count == getUsersdata.length)
@@ -44,5 +43,4 @@ function Signin(){
         alert("User is Not registered, Sign up to Continue")
         window.location.href = "signup.html"
     }
-
 }
